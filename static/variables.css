@@ -1,0 +1,10 @@
+:root {
+  --color-bg: #F8FAFC;
+  --color-primary: #D9EAFD;
+  --color-secondary: #BCCCDC;
+  --color-accent: #9AA6B2;
+  --color-text: #22223B;
+  --color-heading: #1A202C;
+  --font-main: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-heading: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}

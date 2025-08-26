@@ -1,0 +1,139 @@
+/* style.css for TheMart */
+body {
+    font-family: var(--font-main);
+    background: var(--color-bg);
+    color: var(--color-text);
+    margin: 0;
+    min-height: 100vh;
+    letter-spacing: 0.01em;
+    transition: background 0.3s, color 0.3s;
+}
+.loading-component {
+    position: fixed;
+    top: 0; left: 0; right: 0; z-index: 2000;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(248, 250, 252, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+.d-none { display: none !important; }
+.hero {
+    background: linear-gradient(90deg, var(--color-primary) 60%, var(--color-accent) 100%);
+    color: var(--color-heading);
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 24px 0 rgba(154,166,178,0.10);
+    padding: 3rem 0;
+}
+
+footer {
+    font-size: 0.95rem;
+    background: var(--color-secondary);
+    color: var(--color-heading);
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    border-top: 1px solid var(--color-accent);
+    margin-top: 3rem;
+}
+footer a {
+    color: var(--color-accent);
+    transition: color 0.2s;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: var(--color-heading);
+}
+
+/* Navbar improvements */
+.navbar {
+    background: var(--color-bg) !important;
+    box-shadow: 0 2px 8px 0 rgba(154,166,178,0.05);
+    border-radius: 0 0 1rem 1rem;
+}
+.navbar-brand {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-accent) !important;
+    letter-spacing: 0.05em;
+    font-size: 2rem;
+}
+.nav-link {
+    color: var(--color-text) !important;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    transition: background 0.2s, color 0.2s;
+}
+.nav-link:hover, .nav-link.active {
+    background: var(--color-primary);
+    color: var(--color-heading) !important;
+}
+
+/* Section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+/* Card and section improvements */
+.container, .row {
+    margin-bottom: 1.5rem;
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px 0 rgba(154,166,178,0.08);
+    border: none;
+    background: #fff;
+    transition: box-shadow 0.2s;
+}
+.card:hover {
+    box-shadow: 0 6px 24px 0 rgba(154,166,178,0.16);
+}
+
+/* Button improvements */
+.btn {
+    font-family: var(--font-main);
+    font-weight: 600;
+    border-radius: 0.75rem;
+    padding: 0.75rem 2rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px 0 rgba(154,166,178,0.08);
+}
+.btn-primary, .btn-light {
+    background: var(--color-primary);
+    color: var(--color-heading);
+    border: none;
+}
+.btn-primary:hover, .btn-light:hover {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+/* Section spacing */
+section {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px 0 rgba(154,166,178,0.06);
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 0;
+        border-radius: 1rem;
+    }
+    section {
+        padding: 1.25rem 0.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}

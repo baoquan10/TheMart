@@ -62,6 +62,15 @@ TheMart/
 - The frontend will be responsive and modern, leveraging Bootstrap 6 and Google Fonts for a clean look.
 - XHR will be used for all API calls to ensure compatibility and control over requests.
 
+## UI/UX and Color Palette Update (Aug 26, 2025)
+- Updated the global color palette in `static/assets/css/main.css` to use a new, trustworthy and welcoming set of colors:
+  - Primary blue: `#7286D3`
+  - Accent blue: `#8EA7E9`
+  - Surface (cards/boxes): `#E5E0FF`
+  - Background: `#FFF2F2`
+- All site elements now use these colors via CSS variables for a consistent, customer-friendly look.
+- No layout or structure changes were made—only color variables were updated for improved brand feel.
+
 ---
 
 For further details, refer to the documentation in each folder and the code comments throughout the project.
