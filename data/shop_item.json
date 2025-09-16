@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Nike Phantom GX 2 Elite - TP-58 (M)",
+            "description": "<h1>Nike Phantom GX 2 Elite TP-58 (White & Gold)</h1><p>Elegant white base with metallic gold accents for a premium, standout look.</p><p>Gripknit upper ensures exceptional control on the ball in all conditions.</p><p>Cyclone 360 traction pattern lets you pivot, brake and change direction with confidence.</p><p>Asymmetric lacing and low-cut knit collar provide snug, secure fit and comfort.</p><p>Designed for elite players who demand precision, agility and style in every play.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.8/5 by those who love high performance with refined aesthetics.</p>",
+            "price": 16.99,
+            "image": "product-golden-nike-football.png"
+        },
+        {
+            "id": 2,
+            "name": "Sub Star Assassin 15 Sports AG Spike TF Crushed Spike (M)",
+            "description": "<h1>Black & Yellow Future TF (M)</h1><p>Bold design built for players who want speed and precision.</p><p>Durable turf construction for long-lasting performance.</p><p>Lightweight feel keeps you fast on every move.</p><p>Textured upper enhances ball touch and control.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.7/5 from hundreds of satisfied players.</p>",
+            "price": 12.99,
+            "image": "product-yellow&back-nike-football.png"
+        },
+        {
+            "id": 3,
+            "name": "Foggy WC (M)",
+            "description": "<h1>Foggy WC (M)</h1><p>Unique white and gold design with bold wavy lines for a standout look.</p><p>Compass symbol detail on the side adds a signature touch.</p><p>Lightweight build supports fast and agile movements.</p><p>Complex textured surface improves precision and control.</p><p>Durable construction made for consistent performance.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.8/5 from players who value both style and performance.</p>",
+            "price": 14.99,
+            "image": "product-complicated-nike-football.png"
+        },
+        {
+            "id": 4,
+            "name": "SF Nike Mercurial Superfly 9 Elite CR7 (M)",
+            "description": "<h1>SF Nike Mercurial Superfly 9 Elite CR7 (M)</h1><p>Azulejo-inspired graphic upper with Vaporposite+ for elite ball control.</p><p>Built-in soccer-specific ¾ Zoom Air unit delivers springy energy return underfoot.</p><p>SpeedCage and Flyknit fit for secure lockdown, contoured toe box and stable heel.</p><p>Tri-star studs + center toe studs give grip, stability when braking and explosive starts.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.9/5 by CR7 fans who want both style and top-tier performance.</p>",
+            "price": 14.99,
+            "image": "product-blue&whitenike-football.png"
+        },
+        {
+            "id": 5,
+            "name": "Nike Zoom Mercurial Vapor 15 Academy TF (M)",
+            "description": "<h1>Nike Zoom Mercurial Vapor 15 Academy TF (M)</h1><p>Upper made with soft synthetic NikeSkin for a close fit and excellent ball touch.</p><p>Air Zoom unit in the sole delivers springy, responsive cushioning for sharper accelerations.</p><p>Rubber TF outsole with ellipse-style studs gives traction on artificial turf without compromising agility.</p><p>Snug, contoured fit with stable heel and speed cage to lock your foot in place.</p><p>Built for players who value control, speed, and crisp feel on synthetic surfaces.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.8/5 from users who love its balance of comfort and performance.</p>",
+            "price": 12.99,
+            "image": "product-black&white-nike-football.png"
+        },
+        {
+            "id": 6,
+            "name": "Phantom GX II Elite AG (M)",
+            "description": "<h1>Phantom GX II Elite AG</h1><p>Revolutionary Gripknit upper on the striking area gives exceptional touch in wet or dry conditions.</p><p>Cyclone 360 traction pattern helps with quick cuts, stable pivoting, and agility on artificial grass.</p><p>Asymmetric lacing increases surface for ball contact and improves fit across midfoot.</p><p>Flyknit collar gives snug, sock-like comfort around the ankle.</p><p>Built for control-focused players who demand precision and stability during high-intensity plays.</p><p>Trusted quality backed with a 30-day money-back guarantee.</p><p>Secure checkout and one-year manufacturer warranty.</p><p>Rated 4.9/5 by players who value touch, control, and agility.</p>",
+            "price": 9.99,
+            "image": "product-black-nike-football.png"
+        }
+    ]
+}

@@ -2,6 +2,9 @@ import webbrowser
 import threading
 import os
 from flask import Flask, render_template, request, jsonify
+from flask import Flask, jsonify
+import json
+import os
 
 app = Flask(__name__)
 
@@ -17,6 +20,7 @@ def index():
     return render_template("index.html")
 
 # Component loader routes
+
 @app.route("/component/header")
 def component_header():
     return render_template("header.html")
@@ -44,6 +48,14 @@ def component_cards():
 @app.route("/component/promo_cards_section")
 def component_promo_cards():
     return render_template("promo_cards_section.html")
+
+# Routes for api
+@app.route('/api/shop-items', methods=['GET'])
+def get_shop_items():
+    json_path = os.path.join(os.path.dirname(__file__), 'data', 'shop_item.json')
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return jsonify(data)
 
 # Chỉ mở trình duyệt nếu đây là tiến trình chính (tránh auto-reload)
 def open_browser():
